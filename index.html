@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oh My Donut</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
@@ -12,23 +16,29 @@
         <div class="container page-header-container">
             <nav class="header-nav">
                 <a href="./index.html" class="header-logo">
-                    <svg>
+                    <svg class="header-logo__img">
                         <use href="./image/sprite.svg#icon-logo"></use>
                     </svg>
                 </a>
                 <ul class="header-menu-list list">
-                    <li class="header-mune__item">About us</li>
-                    <li class="header-mune__item">Program</li>
-                    <li class="header-mune__item">Speakers</li>
-                    <li class="header-mune__item">Price</li>
-                    <li class="header-mune__item">Reviews</li>
-                    <li class="header-mune__item">Contacts</li>
+                    <li class="header-mune__item">
+                        <a class="header-menu__link link" href="#">About us</a></li>
+                    <li class="header-mune__item">
+                        <a class="header-menu__link link" href="#">Program</a></li>
+                    <li class="header-mune__item">
+                        <a class="header-menu__link link" href="#">Speakers</a></li>
+                    <li class="header-mune__item">
+                        <a class="header-menu__link link" href="#">Price</a></li>
+                    <li class="header-mune__item">
+                        <a class="header-menu__link link" href="#">Reviews</a></li>
+                    <li class="header-mune__item">
+                        <a class="header-menu__link link" href="#">Contacts</a></li>
                 </ul>
-                <div>
-                    <svg>
+                <button type="button" class="open-mobile-menu js-open-menu">
+                    <svg class="open-mobile-menu__btn">
                         <use href="./image/sprite.svg#icon-burger"></use>
                     </svg>
-                </div>
+                </button>
             </nav>
         </div>
     </section>
